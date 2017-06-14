@@ -22,13 +22,15 @@ header {
  
 header h1 {
 	text-align: center;
-	font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+	font: 100 60px/1.5;
+    font-family: 'Varela Round', sans-serif;
 	
 }
  
 header p {
-	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+	font: 100 15px/1.5;
 	text-align: justify;
+    font-family: 'Varela Round', sans-serif;
 }
  
  
@@ -134,4 +136,8 @@ footer {
   bottom: 0;
   left: 0;
   font-size: 40%;
+}
+
+a {
+  font-family: 'Varela Round', sans-serif;
 }
